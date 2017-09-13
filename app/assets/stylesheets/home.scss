@@ -147,7 +147,8 @@ header.masthead {
   min-height: auto;
   text-align: center;
   color: white;
-  background-image: image-url("header.jpg");
+  // background-image: image-url("header.jpg");
+  background-image: url("https://s3-us-west-2.amazonaws.com/rohrsengimages/microscope.jpeg");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
