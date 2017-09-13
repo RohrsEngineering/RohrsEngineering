@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'pages/home'
+
+  get 'pages/engineering'
+
+  get 'pages/science'
+
+  get 'pages/resume'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
