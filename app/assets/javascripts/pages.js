@@ -83,7 +83,7 @@ $(document).on('turbolinks:load', function(){
               '<div class="mfp-counter"></div>'+
             '</div>'+
           '</div>',
-      verticalFit: false,
+      verticalFit: true,
       tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
     }
     
