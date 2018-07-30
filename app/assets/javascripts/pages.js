@@ -69,9 +69,24 @@ $(document).on('turbolinks:load', function(){
       navigateByImgClick: true,
       preload: [0, 1]
     },
+    
     image: {
+      titleSrc: function(item) {
+        return '<a href="'+ item.el.attr('url') + '" target="_blank">' + item.el.attr('title') + 
+        '</a><small>' + item.el.attr('caption') + '</small>';
+      },
+      markup: '<div class="mfp-figure">'+
+            '<div class="mfp-close"></div>'+
+            '<div class="mfp-img"></div>'+
+            '<div class="mfp-bottom-bar">'+
+              '<div class="mfp-title"></div>'+
+              '<div class="mfp-counter"></div>'+
+            '</div>'+
+          '</div>',
+      verticalFit: false,
       tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
     }
+    
   });
 
 })(jQuery); // End of use strict
