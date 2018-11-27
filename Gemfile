@@ -28,7 +28,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem "font-awesome-rails"
 gem 'jquery-easing-rails'
 # gem 'magnific-popup-rails', '~> 1.1.0'
-gem 'bootstrap', '~> 4.0.0.beta'
+gem 'bootstrap', '~> 4.1.2'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
