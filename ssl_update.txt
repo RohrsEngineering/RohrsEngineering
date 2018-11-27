@@ -1,0 +1,4 @@
+nvm install 8.3
+nvm use 8.3
+npm install -g heroku
+heroku certs:update www_rohrsengineering_com.pem www_rohrsengineering_com.key --confirm fathomless-cliffs-96402
